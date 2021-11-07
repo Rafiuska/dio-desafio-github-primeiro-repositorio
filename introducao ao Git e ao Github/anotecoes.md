@@ -7,7 +7,6 @@
 - **ls**: lista os arquivos em um diretório
 - **cd**: muda para um diretório desejado
 - **mkdir** : cria um novo diretório
-
 - **git** **clone** : clona repositórios no Github para uma pasta local
 - **git** **status** : verifica se os arquivos foram alterados
 - **git** **add** **.** ou * : adiciona arquivos alterados para preparar-los para a fase 'staged'
@@ -21,3 +20,4 @@
 - **git** **checkout** **-b** [**nome da nova branch**] : cria uma nova branch e automaticamente alterna para ela
 - **git** **reset** **-- hard** [id da versão desejada] : altera a versão de código para versões anteriores
 - **git** **reflog** : lista todas as versões de código de uma branch
+- **touch** **.gitignore** : cria arquivo de texto para adicionar nome dos arquivos que não se deseja enviar para o remote
